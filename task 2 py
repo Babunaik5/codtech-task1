@@ -1,0 +1,23 @@
+#calcullate thr grade of student
+sub1 = int(input("enter marks of s1:"))
+sub2 = int(input("enter marks of s2:"))
+sub3 = int(input("enter marks of s3:"))
+sub4 = int(input("enter marks of s4:"))
+sub5 = int(input("enter marks of s5:"))
+print()
+total_marks = sub1+sub2+sub3+sub4+sub5
+print("Total score:",total_marks)
+
+average =(total_marks/500)*100
+print("Average:",average)
+
+if average>=85:
+    print("Grade A")
+elif average>=70:
+    print("Grade B")
+elif average>=55:
+    print("Grade C")
+elif average>=40:
+    print("Grade D")
+else:
+    print("Fail")
